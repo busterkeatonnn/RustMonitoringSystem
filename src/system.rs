@@ -55,6 +55,7 @@ impl SystemMonitor {
         })
     }
 
+
     // Получение данных памяти
     pub fn get_memory_info(&mut self) -> Result<MemoryInfo> {
         self.refresh();

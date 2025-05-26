@@ -65,6 +65,7 @@ impl Process {
             .collect()
     }
 
+
     // Поиск процесса по PID
     pub fn get_process_by_pid(&mut self, pid: u32) -> Result<ProcessInfo> {
         self.refresh();

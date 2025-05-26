@@ -23,6 +23,7 @@ pub struct NetworkInfo {
     previous_stats: HashMap<String, NetworkInterfaceInfo>, // Предыдущие замеры
 }
 
+
 impl NetworkInfo {
     // Создание нового монитора с полным обновлением данных
     pub fn new() -> Self {
