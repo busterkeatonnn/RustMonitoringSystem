@@ -1,0 +1,11 @@
+[package]
+name = "sysmonitor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sysinfo = "0.29.0"
+procfs = "0.15.1"
+thiserror = "1.0.40"
+futures = "0.3.28"
+tokio = { version = "1.28.0", features = ["full"] }
